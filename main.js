@@ -1,4 +1,4 @@
-let color =  prompt().toLocaleLowerCase().trim()
+let color =  prompt("Введите цвет: красный, желтый или зеленый").toLocaleLowerCase().trim()
 let red = document.getElementById("red")
 let yellow = document.getElementById("yellow")
 let green = document.getElementById("green")
