@@ -1,4 +1,4 @@
-let color =  prompt()
+let color =  prompt().toLocaleLowerCase().trim()
 let red = document.getElementById("red")
 let yellow = document.getElementById("yellow")
 let green = document.getElementById("green")
@@ -12,4 +12,6 @@ let green = document.getElementById("green")
 } else if (color === "зеленый" || color === "green") {
     green.style.backgroundColor = "green";
     document.getElementById("word").innerText = "GO"
-} else { "Ошибка!"}
+} else { 
+    document.getElementById("word").innerText = "Oшибка! Введите цвет: красный, желтый или зеленый"
+}
