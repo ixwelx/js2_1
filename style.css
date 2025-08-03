@@ -1,0 +1,23 @@
+html{
+    font-family: sans-serif;
+}
+#word {
+    text-align: center;
+    color: black;
+    margin: 10px;
+}
+.traffic_light {
+    margin: 40px auto;
+    width: 170px;
+    background-color: #2c2929 ;
+    padding: 10px;
+    border-radius: 6px;
+}
+.light {
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    background-color: gray;
+    margin-bottom: 6px;
+    border-radius: 50%;
+}
